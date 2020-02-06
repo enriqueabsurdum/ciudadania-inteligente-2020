@@ -38,7 +38,7 @@ github_username:  enriqueabsurdum
 collections:
   elections_2020:
     output: true
-    permalink: /
+    permalink: /elections/
 
 #defaults:
 #  - scope:
