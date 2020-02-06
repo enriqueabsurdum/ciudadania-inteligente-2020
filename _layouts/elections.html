@@ -1,0 +1,25 @@
+---
+layout: page
+permalink: "/countries/"
+---
+
+<h1 class="text-center my-5 h2 font-weight-bold text-dark" style="padding-top: 60px;">
+    <i class="fas fa-vote-yea mr-2"></i>
+    Elecciones 2020 Latinoamérica
+</h1>
+
+<div class="row px-3">
+    <div class="card-columns">
+        {% for country in site.elections_2020 %}
+        <div class="card my-3">
+            <img src="{{ country.picture }}" class="card-img-top" width="50" alt="{{ country.title }}">
+            <div class="card-body">
+                <h4 class="card-title text-center font-weight-bold">{{ country.title }}</h4>
+            </div>
+            <div class="card-footer text-center bg-transparent border-top-0">
+                <a href="{{ country.url }}" class="card-link">Ver más</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
