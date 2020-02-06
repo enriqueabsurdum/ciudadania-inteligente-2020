@@ -2,4 +2,12 @@
 layout: home
 ---
 
-<h1>Descripción elección</h1>
+<div class="d-flex align-items-center justify-content-center my-4" style="padding-top: 60px;">
+    <img class="mr-3 rounded-circle" src="{{ page.picture }}" alt="" width="54" height="54">
+    <div>
+        <h1 class="my-5 h2 text-center font-weight-bold text-dark">
+            <small>Elecciones 2020</small> {{ page.title }}</h1>
+    </div>
+</div>
+
+{{ content }}
