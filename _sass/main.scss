@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-navbar {
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.1)
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
