@@ -30,31 +30,6 @@
     {{ content }}
 </div>
 
-<!--<div class="container">
-    <div class="row px-3">
-        <div class="card-columns">
-            {% for country in site.elections_2020 %}
-            <div class="card my-3">
-                <img src="{{ country.picture }}" class="card-img-top" width="50" alt="{{ country.title }}">
-                <div class="card-body">
-                    <h4 class="card-title text-center font-weight-bold">{{ country.title }}</h4>
-                    {% for election in country.categories %}
-                    <span class="badge badge-pill badge-info px-3 py-1 my-1">{{ election | capitalize }}</span>
-                    {% else %}
-                    <p class="text-center">Sin elecciones 2020</p>
-                    {% endfor %}
-                </div>
-                {% if country.categories.size > 0 %}
-                <div class="card-footer text-center bg-transparent border-top-0">
-                    <a href="{{ country.url }}" class="card-link">Ver más<i class="fas fa-plus ml-2"></i></a>
-                </div>
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>-->
-
 {% include footer.html %}
 
 <!-- Optional JavaScript -->
