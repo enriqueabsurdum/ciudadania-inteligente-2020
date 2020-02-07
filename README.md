@@ -1,3 +1,3 @@
 # Proyecto en Jekyll
 
-Este proyecto corresponde a un proyecto para Ciudadanía Inteligente. Consiste en mostrar las próximas elecciones 2020 en Latinoamérica.
+Proyecto para proceso de postulación en Ciudadanía Inteligente, que consiste en mostrar las próximas elecciones 2020 en Latinoamérica.
